@@ -1,0 +1,84 @@
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'airport';
+  src: url('airport/airport.eot');
+  src: url('airport/airport.eot?#iefix') format('embedded-opentype'),
+  url('airport/airport.woff') format('woff'),
+  url('airport/airport.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background: #bcb9b9;
+}
+.App{
+  font-family: "Segoe UI";
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  height: 100%;
+  width: 100%;
+  grid-gap: 16px;
+}
+.cardLabel{
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  font-family: airport;
+}
+.infoLabel{
+  text-transform: uppercase;
+  & span{
+    opacity: 0.5;
+    text-transform: none;
+    font-style: italic;
+  }
+}
+.card {
+  background: white;
+  width: 500px;
+  margin: 0 auto 0 0;
+  padding: 20px 50px 30px 50px;
+  & .content{
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-areas: "img info"
+                          ". link";
+    grid-gap: 0 15px;
+    & .img{
+      grid-area: img;
+      border: 1px solid black;
+      height: 100px;
+      width: 100px;
+      & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    & .info{
+      grid-area: info;
+    }
+    & .readMoreLink{
+      grid-area: link;
+    }
+  }
+}
+@media (max-width: 630px) {
+  .card {
+    width: 200px;
+    padding: 10px 20px;
+    & .content{
+      grid-template-columns: 50px auto;
+      & .img{
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+
+}
