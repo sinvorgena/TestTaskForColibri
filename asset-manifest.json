@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TestTaskForColibri/static/css/main.6aaf38c0.chunk.css",
+    "main.js": "/TestTaskForColibri/static/js/main.e3735e3e.chunk.js",
+    "main.js.map": "/TestTaskForColibri/static/js/main.e3735e3e.chunk.js.map",
+    "runtime-main.js": "/TestTaskForColibri/static/js/runtime-main.1592eed4.js",
+    "runtime-main.js.map": "/TestTaskForColibri/static/js/runtime-main.1592eed4.js.map",
+    "static/js/2.1f1d137e.chunk.js": "/TestTaskForColibri/static/js/2.1f1d137e.chunk.js",
+    "static/js/2.1f1d137e.chunk.js.map": "/TestTaskForColibri/static/js/2.1f1d137e.chunk.js.map",
+    "static/js/3.98db6c62.chunk.js": "/TestTaskForColibri/static/js/3.98db6c62.chunk.js",
+    "static/js/3.98db6c62.chunk.js.map": "/TestTaskForColibri/static/js/3.98db6c62.chunk.js.map",
+    "index.html": "/TestTaskForColibri/index.html",
+    "static/css/main.6aaf38c0.chunk.css.map": "/TestTaskForColibri/static/css/main.6aaf38c0.chunk.css.map",
+    "static/js/2.1f1d137e.chunk.js.LICENSE.txt": "/TestTaskForColibri/static/js/2.1f1d137e.chunk.js.LICENSE.txt",
+    "static/media/App.module.scss": "/TestTaskForColibri/static/media/airport.a39c483c.eot",
+    "static/media/logo.6ce24c58.svg": "/TestTaskForColibri/static/media/logo.6ce24c58.svg",
+    "static/media/news_foto.da3b9d44.jpg": "/TestTaskForColibri/static/media/news_foto.da3b9d44.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1592eed4.js",
+    "static/js/2.1f1d137e.chunk.js",
+    "static/css/main.6aaf38c0.chunk.css",
+    "static/js/main.e3735e3e.chunk.js"
+  ]
+}
